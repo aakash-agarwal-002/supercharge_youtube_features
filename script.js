@@ -48,4 +48,56 @@ document.addEventListener('DOMContentLoaded', () => {
             thumbnail.style.transform = `perspective(1000px) rotateY(-5deg) rotateX(5deg)`;
         });
     }
+
+    // Carousel Logic
+    const track = document.querySelector('.carousel-track');
+    const slides = Array.from(track.children);
+    const nextButton = document.querySelector('.next-btn');
+    const prevButton = document.querySelector('.prev-btn');
+    const indicators = Array.from(document.querySelectorAll('.indicator'));
+    
+    let currentIndex = 0;
+
+    function updateCarousel(index) {
+        // Move track
+        track.style.transform = `translateX(-${index * 100}%)`;
+        
+        // Update active slide class for scaling/opacity effects
+        slides.forEach((slide, i) => {
+            if (i === index) {
+                slide.classList.add('active');
+            } else {
+                slide.classList.remove('active');
+            }
+        });
+
+        // Update indicators
+        indicators.forEach((indicator, i) => {
+            if (i === index) {
+                indicator.classList.add('active');
+            } else {
+                indicator.classList.remove('active');
+            }
+        });
+
+        currentIndex = index;
+    }
+
+    nextButton.addEventListener('click', () => {
+        let nextIndex = currentIndex + 1;
+        if (nextIndex >= slides.length) nextIndex = 0; // Loop back
+        updateCarousel(nextIndex);
+    });
+
+    prevButton.addEventListener('click', () => {
+        let prevIndex = currentIndex - 1;
+        if (prevIndex < 0) prevIndex = slides.length - 1; // Loop to end
+        updateCarousel(prevIndex);
+    });
+
+    indicators.forEach((indicator, index) => {
+        indicator.addEventListener('click', () => {
+            updateCarousel(index);
+        });
+    });
 });

@@ -2,7 +2,7 @@
 
 ## Chrome Extension
 
-[Install from Chrome Web Store](https://chromewebstore.google.com/detail/afbpoggcamjpjhaofnedlcllkkokfkca)
+[![Chrome Web Store](https://img.shields.io/chrome-web-store/v/afbpoggcamjpjhaofnedlcllkkokfkca?style=for-the-badge&logo=google-chrome&logoColor=white)](https://chromewebstore.google.com/detail/afbpoggcamjpjhaofnedlcllkkokfkca)
 
 ![Banner](Screenshot/banner.png)
 

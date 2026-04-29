@@ -1,5 +1,9 @@
 # YouTube Feature Enhancer
 
+## Chrome Extension
+
+[Install from Chrome Web Store](https://chromewebstore.google.com/detail/afbpoggcamjpjhaofnedlcllkkokfkca)
+
 ![Banner](Screenshot/banner.png)
 
 This repository serves as the public tracker and promotional landing page for the **YouTube Feature Enhancer** browser extension.

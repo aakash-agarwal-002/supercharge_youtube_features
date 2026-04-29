@@ -1,34 +1,41 @@
-# YouTube Feature Enhancer Website
+# YouTube Feature Enhancer
 
-![Thumbnail](thumbnail.png)
+![Banner](Screenshot/banner.png)
 
-This repository contains the source code for the promotional landing page of the **YouTube Feature Enhancer** browser extension.
+This repository serves as the public tracker and promotional landing page for the **YouTube Feature Enhancer** browser extension.
 
 ## 🌟 About The Extension
 
 YouTube Feature Enhancer supercharges your YouTube viewing experience with native UI integrations. Features include:
-- Auto Ad-Skipper
-- Smart Double-Tap to Skip
-- A/B Timeline Looper
-- Frame-Accurate Bookmarks
-- Quick Quality Switcher
+- 🚫 Auto Ad-Skipper
+- ⏭️ Smart Double-Tap to Skip
+- 🔁 A/B Timeline Looper
+- 📌 Frame-Accurate Bookmarks
+- ⚙️ Quick Quality Switcher
 
-The actual extension source code is maintained in a private repository to protect its proprietary click-interception algorithms and heatmap parsers.
+*(Note: The actual extension source code is maintained in a private repository to protect its proprietary click-interception algorithms and heatmap parsers.)*
 
-## 💻 Tech Stack
+## 📸 Screenshots
 
-This website is built with zero dependencies for maximum performance:
-- Semantic **HTML5**
-- Vanilla **CSS3** (with modern features like Glassmorphism and CSS Variables)
-- Vanilla **JavaScript** (IntersectionObserver for scroll animations)
+Here is a look at the extension in action:
 
-## 🚀 Deployment
+![Page 1](Screenshot/page%201.png)
+![Page 2](Screenshot/page%202.png)
+![Page 3](Screenshot/page%203.png)
+![Page 4](Screenshot/page%204.png)
+![Page 5](Screenshot/page%205.png)
+![Page 6](Screenshot/page%206.png)
+![Page 7](Screenshot/page%207.png)
+![Page 8](Screenshot/page%208.png)
+![Page 9](Screenshot/page%209.png)
 
-This website is designed to be hosted entirely on **GitHub Pages**.
+## 🐛 Feedback & Changes
 
-1. Fork or clone this repository.
-2. Ensure GitHub Pages is enabled in the repository settings (Deploy from branch `main`).
-3. The site will be live instantly!
+We are constantly looking to improve! If you encounter a bug, have a feature request, or want to suggest changes, please open an issue!
+
+1. Go to the **Issues** tab at the top of this repository.
+2. Click **New Issue**.
+3. Provide as much detail as possible so we can look into it right away.
 
 ---
 *Created to make studying and watching videos better.*

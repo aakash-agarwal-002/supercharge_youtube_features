@@ -1,57 +1,35 @@
 # YouTube Feature Enhancer
 
-## Chrome Extension
+![YouTube Enhancer](thumbnail.png)
 
-[![Chrome Web Store](https://img.shields.io/chrome-web-store/v/afbpoggcamjpjhaofnedlcllkkokfkca?style=for-the-badge&logo=google-chrome&logoColor=white)](https://chromewebstore.google.com/detail/afbpoggcamjpjhaofnedlcllkkokfkca)
+Supercharge YouTube with absolute control, directly inside the native player.
 
-![Banner](Screenshot/banner.png)
+Are you tired of tedious YouTube controls, constantly clicking "Skip Ad", or struggling to loop that exact 5-second guitar riff? That's why I made **YouTube Feature Enhancer** – to make your viewing and studying experience flawless!
 
-This repository serves as the public tracker and promotional landing page for the **YouTube Feature Enhancer** browser extension.
+Now you can simply install the extension and immediately supercharge your YouTube player. Enjoy automated ad-skipping, double-tap to skip, precise A/B timeline looping, and frame-accurate video bookmarks all seamlessly integrated directly into the native YouTube video player. 
 
-## About The Extension
+Although there are other similar extensions out there, they usually clutter your screen with ugly external menus or require opening separate tabs. YouTube Feature Enhancer injects controls natively into the YouTube player itself. It feels exactly like an official YouTube feature!
 
-YouTube Feature Enhancer supercharges your YouTube viewing experience with native UI integrations. Features include:
-- Auto Ad-Skipper
-- Smart Double-Tap to Skip
-- A/B Timeline Looper
-- Frame-Accurate Bookmarks
-- Quick Quality Switcher
+## Features
 
-*(Note: The actual extension source code is maintained in a private repository to protect its proprietary click-interception algorithms and heatmap parsers.)*
+- 🚫 **Auto Ad-Skipper**: Say goodbye to the "Skip Ad" button. The extension automatically detects and clicks it for you the millisecond it appears.
+- ⏭️ **Smart Double-Tap to Skip**: Just like on the mobile app, double-click the left or right side of the video player to skip backward or forward. It features continuous addition (click 3 times for 10s, 4 times for 15s) with a sleek, pulse-merge animation.
+- 🔁 **A/B Timeline Looper**: A custom toggle built right into the YouTube settings bar! Drag the beautiful yellow handles on the red progress bar to isolate and perfectly loop any specific segment of a video.
+- 📌 **Frame-Accurate Bookmarks**: Press the 'B' key or click the bookmark icon to drop a map-pin right on the video timeline. Easily jump back to your favorite moments. Long-press the pin to delete it.
+- 📄 **One-Click PDF Subtitle Export**: Are you studying a lecture or taking notes? Click the download button on your bookmarks to instantly generate a clean, print-ready PDF containing screenshots of all your bookmarked frames seamlessly paired with their respective subtitle text! (Choose from Landscape or Portrait layouts).
+- ⚙️ **Quick Quality Switcher**: View and change your video quality instantly with a dedicated button on the main player bar. No more digging through the gear menu just to switch to 1080p!
+- 🎨 **Customizable Experience**: Don't like a specific feature? Use the extension popup menu to toggle individual features like Double-Tap or Bookmarks on and off instantly!
 
-## Screenshots
+## Installation
 
-Here is a look at the extension in action:
+1. Download or clone this repository.
+2. Go to `chrome://extensions/` in your Chrome browser.
+3. Enable "Developer mode" in the top right corner.
+4. Click "Load unpacked" and select this project folder.
+5. Enjoy!
 
-<table>
-  <tr>
-    <td><img src="Screenshot/page%201.png" alt="Page 1" width="100%"></td>
-    <td><img src="Screenshot/page%202.png" alt="Page 2" width="100%"></td>
-  </tr>
-  <tr>
-    <td><img src="Screenshot/page%203.png" alt="Page 3" width="100%"></td>
-    <td><img src="Screenshot/page%204.png" alt="Page 4" width="100%"></td>
-  </tr>
-  <tr>
-    <td><img src="Screenshot/page%205.png" alt="Page 5" width="100%"></td>
-    <td><img src="Screenshot/page%206.png" alt="Page 6" width="100%"></td>
-  </tr>
-  <tr>
-    <td><img src="Screenshot/page%207.png" alt="Page 7" width="100%"></td>
-    <td><img src="Screenshot/page%208.png" alt="Page 8" width="100%"></td>
-  </tr>
-  <tr>
-    <td colspan="2"><img src="Screenshot/page%209.png" alt="Page 9" width="100%"></td>
-  </tr>
-</table>
-
-## Feedback & Changes
-
-We are constantly looking to improve! If you encounter a bug, have a feature request, or want to suggest changes, please open an issue!
-
-1. Go to the **Issues** tab at the top of this repository.
-2. Click **New Issue**.
-3. Provide as much detail as possible so we can look into it right away.
+## Tip
+To make bookmarking faster, just hit the **'B'** key on your keyboard while watching a video to instantly drop a pin without using your mouse.
 
 ---
-*Created to make studying and watching videos better.*
+Created with ❤️ to make studying and watching videos better.

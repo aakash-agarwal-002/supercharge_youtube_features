@@ -1,12 +1,12 @@
 # YouTube Feature Enhancer
 
-![YouTube Enhancer](thumbnail.png)
+![YouTube Enhancer](Screenshot/02%20_%20Three%20platform%20cards.png)
 
 Supercharge YouTube with absolute control, directly inside the native player.
 
 Are you tired of tedious YouTube controls, constantly clicking "Skip Ad", or struggling to loop that exact 5-second guitar riff? That's why I made **YouTube Feature Enhancer** – to make your viewing and studying experience flawless!
 
-Now you can simply install the extension and immediately supercharge your YouTube player. Enjoy automated ad-skipping, double-tap to skip, precise A/B timeline looping, and frame-accurate video bookmarks all seamlessly integrated directly into the native YouTube video player. 
+Now you can simply install the extension and immediately supercharge your YouTube player. Enjoy automated ad-skipping, double-tap to skip, precise A/B timeline looping, and frame-accurate video bookmarks all seamlessly integrated directly into the native YouTube video player.
 
 Although there are other similar extensions out there, they usually clutter your screen with ugly external menus or require opening separate tabs. YouTube Feature Enhancer injects controls natively into the YouTube player itself. It feels exactly like an official YouTube feature!
 
@@ -29,7 +29,9 @@ Although there are other similar extensions out there, they usually clutter your
 5. Enjoy!
 
 ## Tip
+
 To make bookmarking faster, just hit the **'B'** key on your keyboard while watching a video to instantly drop a pin without using your mouse.
 
 ---
+
 Created with ❤️ to make studying and watching videos better.
